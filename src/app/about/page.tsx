@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -20,6 +21,17 @@ const page = () => {
         Full Stack web Developer
         </div>
       </figcaption>
+      <div className="mt-4 space-x-4">
+            <Link href="/" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
+              Home
+            </Link>
+            <Link href="/address" className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-700">
+              Address
+            </Link>
+            <Link href="/contact" className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-700">
+              contact
+            </Link>
+          </div>
     </div>
   </figure>
   </div>

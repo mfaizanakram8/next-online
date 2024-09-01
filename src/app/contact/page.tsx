@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-300">
       <figure className="bg-white rounded-xl p-4 md:flex md:p-8 md:w-1/2">
@@ -21,10 +22,21 @@ const page = () => {
               &#128241; 03106800495
             </div>
           </figcaption>
+          <div className="mt-4 space-x-4">
+            <Link href="/" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
+              Home
+            </Link>
+            <Link href="/address" className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-700">
+              Address
+            </Link>
+            <Link href="/about" className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-700">
+              About
+            </Link>
+          </div>
         </div>
       </figure>
     </div>
   );
 };
 
-export default page;
+export default Page;
