@@ -12,7 +12,7 @@ const page = () => {
           Adda gulmerg chowk 
         </div>
         <div className="text-slate-700 dark:text-slate-500">
-          Rahim yar khan, Pakistan
+          Rahim yar khan&#44; Pakistan
         </div>
       </figcaption>
     </div>
