@@ -9,7 +9,7 @@ const page = () => {
     <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
       <blockquote>
         <p className="text-xl font-medium">
-          “Welcome to my home sweet home, where warmth and comfort greet you at every corner. Here, every room is filled with love, and every detail is a reflection of cherished memories. Come in, relax, and feel right at home.”
+          Welcome to my home sweet home&#44; where warmth and comfort greet you at every corner. Here&#44; every room is filled with love&#44; and every detail is a reflection of cherished memories. Come in&#44; relax, and feel right at home.
         </p>
       </blockquote>
     </div>
