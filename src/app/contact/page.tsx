@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -9,7 +9,7 @@ const Page = () => {
         <Image
           className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
           src="/contact.png"
-          alt="home"
+          alt="contact"
           width="384"
           height="512"
         />
@@ -23,13 +23,22 @@ const Page = () => {
             </div>
           </figcaption>
           <div className="mt-4 space-x-4">
-            <Link href="/" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
+            <Link
+              href="/"
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700"
+            >
               Home
             </Link>
-            <Link href="/address" className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-700">
+            <Link
+              href="/address"
+              className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-700"
+            >
               Address
             </Link>
-            <Link href="/about" className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-700">
+            <Link
+              href="/about"
+              className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-700"
+            >
               About
             </Link>
           </div>
